@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="por-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge</title>
+
+</head>
+
+<body>
+
+    <header>
+    <span><a href="https://www.alura.com.br/" target="_blank"><img class="alura" src="images/alura_logo.png" alt=""></a></span>
+    </header>
+
+    <section>
+        <div class="div">
+            <textarea class="text_area" type="text" rows="6" placeholder="Digite seu texto" maxlength="10000"></textarea>
+        </div>
+
+        <div class="buttons">
+            <span><img src="images/exclamation_sign.png" class="icon"><p class="info"> Apenas letras minúsculas e sem acento.</p></span>
+            <button class="button" id="encrypt">Criptografar</button>
+            <button class="button" id="decrypt">Descriptografar</button>
+        </div>
+
+        <div class="frame_content">
+
+            <div class="frame">
+                <div class="message">
+                    <p class="frame_line1">Nenhuma mensagem encontrada</p>
+                    <p class="frame_line2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="text_conteudo">
+                    <textarea class="recebe_text" id="apareceNaTela" aria-rowcount="10" rows="10" readonly></textarea>
+                    <img class="search_image" src="images/search.jpg" alt="">
+                    <button class="copiar" onclick="copy()">Copiar</button>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/arthurmdleal/" target="_blank"><img class="social_link" src="images/social/linkedin.png" alt=""></a>
+            <a href="https://github.com/arthurmarrocos"  target="_blank"><img class="social_link" src="images/social/github.png" alt=""></a>
+            <a href="https://www.facebook.com/arthur.marrocosdantasleal/" target="_blank"><img class="social_link" src="images/social/facebook.png" alt=""></a>
+            <a href="https://twitter.com/MarrocosLeal" target="_blank"><img class="social_link" class="social_link" src="images/social/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/marrocosdantasleal/" target="_blank"><img class="social_link" src="images/social/instagram.png" alt=""></a>
+        </div>
+        <p class="pie">&copy;2022 Arthur Marrocos Dantas Leal</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
